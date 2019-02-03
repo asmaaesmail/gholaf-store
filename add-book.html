@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="shortcut icon" href="img/logo.png">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+      <!-- owel carsoul -->
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <!-- bootstrab -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- animate -->
+      <link rel="stylesheet" href="css/animate.css">
+      <!-- loader -->
+      <link rel="stylesheet" href="css/loader.css">
+      <link rel="stylesheet" href="css/style.css" />
+      <!--NVD3-->
+   </head>
+   <body>
+      <div id="wrapper">
+         <div class="overlay"></div>
+         <!-- Sidebar -->
+         <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+               <li><a href="index.html"><img src="img/logo.png"></a></li>
+               <li><a href="index.html">الرئيسية</a></li>
+               <li><a href="books.html">الكتب</a></li>
+               <li><a href="about-gholaf.html">عن الغلاف</a></li>
+               <li><a href="contact-us.html">اتصل بنا</a></li>
+               <li><a href="#services">احصل علي التطبيق</a></li>
+               <li><a href="personaly-profile.html">الملف الشخصي</a></li>
+            </ul>
+         </nav>
+         <!-- /#sidebar-wrapper -->
+         <!-- Page Content -->
+         <div id="page-content-wrapper">
+            <section class="first-nav">
+               <div class="container-fluid first-nav-content">
+                  <div class="row first-nav-row">
+                     <div class="col-sm-2 flex">
+                        <a href="index.html"><img src="img/logo-horiznal.png" class="first-logo"></a>
+                     </div>
+                     <div class="col-sm-8 first-nav-col">
+                        <ul class="first-nav-ul">
+                           <li class="first-nav-li active1">
+                              <a href="index.html">كتبي</a>
+                           </li>
+                           <!-- <li class="first-nav-li active1">
+                              <a href="index.html">الرئيسية</a>
+                              </li>-->
+                           <!--<li class="first-nav-li">
+                              <a href="books.html">الكتب</a> 
+                              </li>-->
+                           <li class="first-nav-li">
+                              <a href="about-gholaf.html"> عن الغلاف</a>
+                           </li>
+                           <li class="first-nav-li">
+                              <a href="contact-us.html">اتصل بنا</a> 
+                           </li>
+                           <!--<li class="first-nav-li">
+                              <a href="#">تسجيل</a> 
+                              </li>-->
+                           <li class="first-nav-li">
+                              <a href="personaly-profile.html">الملف الشخصي</a>
+                           </li>
+                           <li class="first-nav-li">
+                              <a href="log-in.html">تسجيل الخروج</a>
+                           </li>
+                        </ul>
+                     </div>
+                     <!-- <div class="col-sm-2 flex">
+                        <a href="arba.html" class="arba-a">
+                           <div class="arba-nav">
+                              <span class="badge">5</span> 
+                              <p class="font-arba"> <i class="fas fa-cart-arrow-down"></i></p>
+                              <p class="arba-word">العربة</p>
+                           </div>
+                        </a>
+                        </div>-->
+                     <div class="col-sm-2 flex add-book-navbar">
+                        <a href="add-book.html" class="add-book-navbar-a">
+                           <div class="add-book-nav">
+                              اضافة كتاب
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- nav2 -->
+            <div class="nav2">
+               <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+               <span class="hamb-top"></span>
+               <span class="hamb-middle"></span>
+               <span class="hamb-bottom"></span>
+               </button><a href="#"><img src="img/logo-horiznal.png" class="img-logo-nav-mob"></a>
+            </div>
+            <!-- sec1 slider -->
+            <section class="sec-header">
+               <div class="title-sec-header1">
+                  <p >كتبي</p>
+                  <p class="font-size-less"><a href="books.html">الكتب</a> / <a href="the-book.html">اسم الكتاب</a> / <a href="add-book.html">اضافة كتاب</a></p>
+              </div>
+            </section>
+            <!-- sec2 about-gholaf  -->
+            <section class="log-in sec">
+               <form action="my-books.html">
+                  <div class="form-group form-log-in  ">
+                     <label>اسم الكتاب</label>
+                     <input type="text" class="form-control" id="name" placeholder="اسم الكتاب" name="name">
+                  </div>
+                  <div class="form-group form-log-in ">
+                     <label>صورة للغلاف</label>
+                     <div class="input-group input-file" name="Fichier1">
+                        <span class="input-group-btn">
+                        <button class="btn btn-default btn-choose" type="button">صورة الغلاف</button>
+                        </span>
+                        <input type="text" class="form-control" placeholder='رفع صورة للكتاب' />
+                     </div>
+                  </div>
+                  <div class="form-group form-log-in ">
+                     <label class="price-block">سعر الكتاب</label>
+                     <input type="number" class="form-control price-book" id="number" placeholder="ادخل سعر الكتاب" name="number"><label> ريال سعودي </label>
+                  </div>
+                  <div class="form-group col-xs-12">
+                     <label>الوصف</label>
+                     <textarea rows="6" cols="95" name="inbox" id="inbox" class="form-control input-lg" placeholder="الوصف" data-fv-field="inbox"></textarea>
+                  </div>
+                  <div class="form-group form-log-in ">
+                     <label>القسم  الرئيسي</label>
+                     <select id="colorselector" class="form-control  pay-control">
+                        <option>القسم الرئيسي </option>
+                        <option value="red">كتب دينية</option>
+                        <option value="yellow">كتب تاريخية</option>
+                     </select>
+                     <!--  -->
+                     <div class="clear"></div>
+                  </div>
+                  <div class="form-group form-log-in ">
+                     <label>القسم  الفرعي</label>
+                     <select id="colorselector" class="form-control  pay-control">
+                        <option>القسم الفرعية </option>
+                        <option value="red">كتب فقه</option>
+                        <option value="yellow">كتب سيرة</option>
+                        <option value="yellow">كتب تفسير</option>
+                     </select>
+                     <!--  -->
+                     <div class="clear"></div>
+                     
+                     <div class="form-group form-log-in ">
+                     <label>المرفقات (png , JPGE ,pdf) </label>
+                     <div class="input-group input-file" name="Fichier1">
+                        <span class="input-group-btn">
+                        <button class="btn btn-default btn-choose" type="button">رفع مرفق</button>
+                        </span>
+                        <input type="text" class="form-control" placeholder='رفع مرفق للكتاب' />
+                     </div>
+                  </div>
+                  
+                  <div class="form-group form-log-in ">
+                     <label>فيديو (mb4)</label>
+                     <div class="input-group input-file" name="Fichier1">
+                        <span class="input-group-btn">
+                        <button class="btn btn-default btn-choose" type="button">الفيديو</button>
+                        </span>
+                        <input type="text" class="form-control" placeholder='رفع فيديو للكتاب' />
+                     </div>
+                  </div>
+                  </div>
+                  <div class="form-group form-log-in pading-right">
+                     <input type="checkbox" id="test3">
+                     <label for="test3">اوفق علي جميع الشروط والاحكام الخاصة بالغلاف للتجارة</label>
+                  </div>
+                  <div class="col-xs-12 align-center">
+                     <button class="button-6 alot all-width" type="submit">
+                        <div class="eff-6 all-width"></div>
+                        <a href="#">اضافة كتاب</a>
+                     </button>
+                  </div>
+                  <p class="align-center dont-acount"><a href="log-in.html"> لديك حساب / تسجيل الدخول</a></p>
+               </form>
+            </section>
+            <!-- class clear -->
+            <div class="clear"></div>
+            <!-- --------------footer------------------------ -->
+            <section class="footer sec contact-footer">
+               <div class="footer-after">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-sm footer-right">
+                           <p class="p-title-footer">غلاف التجارة</p>
+                           <p>هذ النص هو مثال لنص يمكن ان يستبدل في هذة المساحة
+                              هذ النص هو مثال لنص يمكن ان يستبدل في هذة المساحة
+                              هذ النص هو مثال لنص يمكن ان يستبدل في هذة المساحة
+                              هذ النص هو مثال لنص يمكن ان يستبدل في هذة المساحة
+                           </p>
+                        </div>
+                        <div class="col-sm footer-right ">
+                           <ul class="cont-us">
+                              <p class="p-title-footer">عن الغلاف</p>
+                              <li><a href="contact-us.html">اتصل بنا</a></li>
+                              <li><a href="terms.html">الشروط والاحكام</a></li>
+                              <li><a href="private.html">شروط الخصوصية</a></li>
+                           </ul>
+                        </div>
+                        <div class="col-sm footer-right">
+                           <p class="p-title-footer">تواصل معنا</p>
+                           <p class="address">العنوان</p>
+                           <p class="p-footer-left">هذ النص هو مثال لنص يمكن ان يستبدل في هذة المساحة
+                              هذ النص هو مثال لنص يمكن ان يستبدل في هذة المساحة
+                              هذ النص هو مثال لنص يمكن ان يستبدل في هذة المساحة
+                              هذ النص هو مثال لنص يمكن ان يستبدل في هذة المساحة
+                           </p>
+                           <ul class="cont-us">
+                              <li><a href="tel: 66948457">
+                                 96054825
+                                 </a> - <a href="tel: 66948457">
+                                 96054825
+                                 </a>
+                              </li>
+                              <li><a href="mailto:gholaf store@gmail.com">gholaf store@gmail.com</a></li>
+                           </ul>
+                           <ul class="ul-social">
+                              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                              <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                              <li><a href="#"><i class="fab fa-snapchat-ghost"></i></a></li>
+                              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <p class="align-center"><a href="http://panorama-q.com/" class="panorama">جميع الحقوق محفوظة لشركة بانوراما القصيم</a></p>
+            </section>
+         </div>
+      </div>
+      <!-- loading -->
+      <div class="loder-content">
+         <div class="book">
+            <span class="page turn"></span>
+            <span class="page turn"></span>
+            <span class="page turn"></span>
+            <span class="page turn"></span>
+            <span class="page turn"></span>
+            <span class="page turn"></span>
+            <span class="cover"></span>
+            <span class="page"></span>
+            <span class="cover turn"></span>
+         </div>
+      </div>
+      <!-- /#wrapper -->
+      <!-- genral scripts -->
+      <!-- jquery -->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <!-- bootstrab -->
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/script.js"></script>  
+      <script>
+          /* upload file */
+         function bs_input_file() {
+         $(".input-file").before(
+         function() {
+         if ( ! $(this).prev().hasClass('input-ghost') ) {
+         var element = $("<input type='file' class='input-ghost' style='visibility:hidden; height:0'>");
+         element.attr("name",$(this).attr("name"));
+         element.change(function(){
+         element.next(element).find('input').val((element.val()).split('\\').pop());
+         });
+         $(this).find("button.btn-choose").click(function(){
+         element.click();
+         });
+         $(this).find("button.btn-reset").click(function(){
+         element.val(null);
+         $(this).parents(".input-file").find('input').val('');
+         });
+         $(this).find('input').css("cursor","pointer");
+         $(this).find('input').mousedown(function() {
+         $(this).parents('.input-file').prev().click();
+         return false;
+         });
+         return element;
+         }
+         }
+         );
+         }
+         $(function() {
+         bs_input_file();
+         });
+      </script>
+   </body>
+</html>

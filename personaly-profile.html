@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="shortcut icon" href="img/logo.png">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+      <!-- owel carsoul -->
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <!-- animate -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/animate.css">
+      <link rel="stylesheet" href="css/loader.css">
+      <link rel="stylesheet" href="css/style.css" />
+      <style>
+      </style>
+      <!--NVD3-->
+   </head>
+   <body>
+      <div id="wrapper">
+         <div class="overlay"></div>
+         <!-- Sidebar -->
+         <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+               <li><a href="index.html"><img src="img/logo.png"></a></li>
+               <li><a href="index.html">الرئيسية</a></li>
+               <li><a href="books.html">الكتب</a></li>
+               <li><a href="about-gholaf.html">عن الغلاف</a></li>
+               <li><a href="contact-us.html">اتصل بنا</a></li>
+               <li><a href="#services">احصل علي التطبيق</a></li>
+               <li><a href="personaly-profile.html">الملف الشخصي</a></li>
+            </ul>
+         </nav>
+         <!-- /#sidebar-wrapper -->
+         <!-- Page Content -->
+         <div id="page-content-wrapper">
+            <section class="first-nav">
+               <div class="container-fluid first-nav-content">
+                  <div class="row first-nav-row">
+                     <div class="col-sm-2 flex">
+                        <a href="index.html"><img src="img/logo-horiznal.png" class="first-logo"></a>
+                     </div>
+                     <div class="col-sm-8 first-nav-col">
+                        <ul class="first-nav-ul">
+                           <li class="first-nav-li ">
+                              <a href="index.html">الرئيسية</a>
+                           </li>
+                           <li class="first-nav-li">
+                              <a href="books.html">الكتب</a> 
+                           </li>
+                           <li class="first-nav-li">
+                              <a href="about-gholaf.html"> عن الغلاف</a>
+                           </li>
+                           <li class="first-nav-li">
+                              <a href="contact-us.html">اتصل بنا</a> 
+                           </li>
+                           <li class="first-nav-li">
+                              <a href="#">احصل علي التطبيق</a> 
+                           </li>
+                           <li class="first-nav-li active1">
+                              <a href="personaly-profile.html">الملف الشخصي</a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="col-sm-2 flex">
+                        <a href="arba.html" class="arba-a">
+                           <div class="arba-nav">
+                              <span class="badge">5</span> 
+                              <p class="font-arba"> <i class="fas fa-cart-arrow-down"></i></p>
+                              <p class="arba-word">العربة</p>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- nav2 -->
+            <div class="nav2">
+               <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+               <span class="hamb-top"></span>
+               <span class="hamb-middle"></span>
+               <span class="hamb-bottom"></span>
+               </button><a href="#"><img src="img/logo-horiznal.png" class="img-logo-nav-mob"></a>
+            </div>
+            <!-- sec1 slider -->
+            <section class="sec-header">
+               <p class="title-sec-header">الملف الشخصي</p>
+            </section>
+            <!-- sec2 about-gholaf  -->
+            <section class="log-in sec">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12 col-md-4">
+                        <div class="aside-box-shadow">
+                           <form class="form-img-upload">
+                              <div class="file-upload">
+                                 <div class="image-upload-wrap">
+                                    <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+                                    <div class="drag-text">
+                                       <!--<h3>تغيير</h3>-->
+                                       <img src="img/landscape.png">
+                                    </div>
+                                 </div>
+                                 <div class="file-upload-content">
+                                    <img class="file-upload-image" src="#" alt="your image" />
+                                    <div class="image-title-wrap">
+                                    </div>
+                                 </div>
+                                 <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">تغيير الصورة</button>
+                              </div>
+                              <div class="form-group col-xs-12">
+                                 <textarea rows="6" cols="95" name="inbox" id="inbox" class="form-control input-lg" placeholder="نبذة مختصرة" data-fv-field="inbox"></textarea>
+                              </div>
+                              <div class="form-group ">
+                                 <input type="number" class="form-control" id="number" placeholder="رقم الجوال" name="number">
+                              </div>
+                              <div class="form-group ">
+                                 <input type="text" class="form-control" id="number" placeholder="المملكة العربية السعوديه - القصيم" name="number">
+                              </div>
+                              <p class=" forget-password align-center personal-change"><a href="forget-password.html">تغيير كلمة المرور</a></p>
+                              
+                              <div class="form-group align-center">
+                                 <button class="button-6  input-form-btn">
+                                    <div class="eff-6 all-width"></div>
+                                    <a href="#">حفظ </a>
+                                 </button>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                     <div class="col-sm-12 col-md-8">
+                        <p class="title-weight download-book">الكتب المتاحة للتصفح والتحميل</p>
+                        <!-- other peronal profile -->
+                         <!--<p class="title-weight download-book">سجل الحسابات</p>-->
+                      
+                            <div class="flex-books">
+                           <a href="the-book.html" class="the-book-href">
+                               <img src="img/book.png"> 
+                           </a>
+                           <div>
+                              <p><span class="title-weight"> رقم الطلب  : </span><span>152</span></p>
+                              <p><span class="title-weight"> السعر  : </span><span>1300 ريال</span></p>
+                               <!-- other peronal profile -->
+                              <!--<p><span class="title-weight"> نسبة الموقع  : </span><span>300 ريال</span></p>
+                              <p><span class="title-weight"> صافي المتبقي  : </span><span>1000 ريال</span></p>-->
+                           </div>
+                        </div>
+                      
+                        <div class="flex-books">
+                           <a href="the-book.html" class="the-book-href">
+                               <img src="img/book.png"> 
+                           </a>
+                           <div>
+                            <p><span class="title-weight"> رقم الطلب  : </span><span>152</span></p>
+                              <p><span class="title-weight"> السعر  : </span><span>1300 ريال</span></p>
+                               <!-- other peronal profile -->
+                              <!--<p><span class="title-weight"> نسبة الموقع  : </span><span>300 ريال</span></p>
+                              <p><span class="title-weight"> صافي المتبقي  : </span><span>1000 ريال</span></p>-->
+                           </div>
+                        </div>
+                         <div class="flex-books">
+                            <a href="the-book.html" class="the-book-href">
+                               <img src="img/book.png"> 
+                           </a>
+                           <div>
+                              <p><span class="title-weight"> رقم الطلب  : </span><span>152</span></p>
+                              <p><span class="title-weight"> السعر  : </span><span>1300 ريال</span></p>
+                               <!-- other peronal profile -->
+                              <!--<p><span class="title-weight"> نسبة الموقع  : </span><span>300 ريال</span></p>
+                              <p><span class="title-weight"> صافي المتبقي  : </span><span>1000 ريال</span></p>-->
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="container pagination-right">
+                  <ul class="pagination">
+                    <li><a href="#" rel="prev">«</a></li>
+                     <li class="active"><a href="#">1</a></li>
+                     <li><a href="#">2</a></li>
+                     <li><a href="#">3</a></li>
+                     <li><a href="#">4</a></li>
+                     <li><a href="#">5</a></li>
+                     <li><a href="#" rel="next">»</a></li>
+                  </ul>
+               </div>
+            </section>
+            <!-- class clear -->
+            <div class="clear"></div>
+            <!-- --------------footer------------------------ -->
+            <section class="footer sec contact-footer">
+               <div class="footer-after">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-sm footer-right">
+                           <p class="p-title-footer">غلاف التجارة</p>
+                           <p>هذ النص هو مثال لنص يمكن ان يستبدل في هذة المساحة
+                              هذ النص هو مثال لنص يمكن ان يستبدل في هذة المساحة
+                              هذ النص هو مثال لنص يمكن ان يستبدل في هذة المساحة
+                              هذ النص هو مثال لنص يمكن ان يستبدل في هذة المساحة
+                           </p>
+                        </div>
+                        <div class="col-sm footer-right ">
+                           <ul class="cont-us">
+                              <p class="p-title-footer">عن الغلاف</p>
+                              <li><a href="contact-us.html">اتصل بنا</a></li>
+                              <li><a href="terms.html">الشروط والاحكام</a></li>
+                              <li><a href="private.html">شروط الخصوصية</a></li>
+                           </ul>
+                        </div>
+                        <div class="col-sm footer-right">
+                           <p class="p-title-footer">تواصل معنا</p>
+                           <p class="address">العنوان</p>
+                           <p class="p-footer-left">هذ النص هو مثال لنص يمكن ان يستبدل في هذة المساحة
+                              هذ النص هو مثال لنص يمكن ان يستبدل في هذة المساحة
+                              هذ النص هو مثال لنص يمكن ان يستبدل في هذة المساحة
+                              هذ النص هو مثال لنص يمكن ان يستبدل في هذة المساحة
+                           </p>
+                           <ul class="cont-us">
+                              <li><a href="tel: 66948457">
+                                 96054825
+                                 </a> - <a href="tel: 66948457">
+                                 96054825
+                                 </a>
+                              </li>
+                              <li><a href="mailto:gholaf store@gmail.com">gholaf store@gmail.com</a></li>
+                           </ul>
+                           <ul class="ul-social">
+                              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                              <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                              <li><a href="#"><i class="fab fa-snapchat-ghost"></i></a></li>
+                              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <p class="align-center"><a href="http://panorama-q.com/" class="panorama">جميع الحقوق محفوظة لشركة بانوراما القصيم</a></p>
+            </section>
+         </div>
+      </div>
+      <!-- /#wrapper -->
+      
+      
+       <!-- loading -->
+      <div class="loder-content">
+          <div class="book">
+          <span class="page turn"></span>
+          <span class="page turn"></span>
+          <span class="page turn"></span>
+          <span class="page turn"></span>
+          <span class="page turn"></span>
+          <span class="page turn"></span>
+          <span class="cover"></span>
+          <span class="page"></span>
+          <span class="cover turn"></span>
+        </div>
+      
+      </div>
+      <!-- genral scripts -->
+      <!-- jquery -->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <!-- bootstrab -->
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <!-- wow -->
+      <script src="js/wow.min.js"></script>
+      
+      <script>
+         function readURL(input) {
+         if (input.files && input.files[0]) {
+         
+         var reader = new FileReader();
+         
+         reader.onload = function(e) {
+         $('.image-upload-wrap').hide();
+         
+         $('.file-upload-image').attr('src', e.target.result);
+         $('.file-upload-content').show();
+         
+         $('.image-title').html(input.files[0].name);
+         };
+         
+         reader.readAsDataURL(input.files[0]);
+         
+         } else {
+         removeUpload();
+         }
+         }
+         
+         function removeUpload() {
+         $('.file-upload-input').replaceWith($('.file-upload-input').clone());
+         $('.file-upload-content').hide();
+         $('.image-upload-wrap').show();
+         }
+         $('.image-upload-wrap').bind('dragover', function () {
+         $('.image-upload-wrap').addClass('image-dropping');
+         });
+         $('.image-upload-wrap').bind('dragleave', function () {
+         $('.image-upload-wrap').removeClass('image-dropping');
+         });
+         
+      </script>
+      <script src="js/script.js"></script>    
+   </body>
+</html>
